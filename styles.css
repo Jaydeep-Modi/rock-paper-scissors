@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+
+header>h1{
+  color:#24272E;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.score_board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge{
+    background: #e2584d;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-family: sans-serif;
+}
+
+#user-label{
+    position: absolute;
+    top: 17px;
+    left: -50px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 17px;
+    right: -50px; 
+}
+
+.result{
+font-size: 40px;
+color: white;
+}
+
+.result > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.choices{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice{
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: red;
+}
+
+#actions {
+text-align: center;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 40px;
+}
